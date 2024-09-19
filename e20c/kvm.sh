@@ -293,7 +293,7 @@ uninstall_1panel() {
 
 # 更新自己
 update_scripts() {
-    wget -O kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/main/e20c/e20c/kvm.sh && chmod +x kvm.sh
+    wget -O kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.sh && chmod +x kvm.sh
     echo "脚本已更新并保存在当前目录 kvm.sh,现在将执行新脚本。"
     ./kvm.sh
     exit 0
