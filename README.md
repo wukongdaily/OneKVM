@@ -16,4 +16,5 @@ wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.s
 |-----|-----|-----|
 | Radxa e20c | [armbian](https://github.com/ophub/amlogic-s9xxx-armbian/releases) ✅ |5.10.x or 6.1|
 | NanoPi R4S | [armbian](https://dl.armbian.com/nanopi-r4s/Bookworm_current_server) ✅ |6.6|
+| NanoPi R4SE | [armbian](https://drive.google.com/file/d/1Ip0pcMIKew3nvOpAbhvw294KxGKULGnd/view?usp=sharing) ✅ |6.1|
 |RaspberryPi-4B|RaspberryPiOS ✅ |6.1|
