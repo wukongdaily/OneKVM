@@ -1,5 +1,7 @@
 # 一键KVM虚拟机
-https://wkdaily.cpolar.cn/archives/e20c
+### 配套图文📁 https://wkdaily.cpolar.cn/archives/e20chelper
+### 相关视频📺️ https://www.bilibili.com/video/BV12msDegEFg
+### 相关视频📺️ https://www.youtube.com/watch?v=YjMzyja9xWo
 
 ### 该项目兼容x86-64 和 arm64 双平台、推荐使用linux内核为5.x以上、推荐内存2G以上
 
