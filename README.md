@@ -4,6 +4,11 @@
 ### 相关视频📺️ https://www.youtube.com/watch?v=YjMzyja9xWo
 
 ### 该项目兼容x86-64 和 arm64 双平台、推荐使用linux内核为5.x以上、推荐内存2G以上
+### 推荐使用支持KVM虚拟化的cpu，因为如果不支持，就只能单靠QEMU模拟，性能会大打折扣。
+- 瑞芯微系列✅
+- 树莓派的博通系列✅
+- 全志Allwinner ❌ 普遍不支持KVM
+- 晶晨的盒子 这个存量太大 以实际测试为准
 
 ### Armbian/Ubuntu/Debian/RaspberryPiOS等基于Debian的Linux
 
