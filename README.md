@@ -21,12 +21,13 @@ wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.s
 
 | 型号 |推荐系统  |内核版本|备注建议|
 |-----|-----|-----|-----|
-| Radxa e20c | [armbian](https://drive.google.com/file/d/1_UFO9dzp3oDMfn2EQCWFGecKiFlY4w2e/view?usp=sharing) ✅ |5.10.x or 6.1|e20c开发板建议2GB内存以上 建议刷armbian系统并升级内核到6.1|
-| NanoPi R4S | [armbian](https://dl.armbian.com/nanopi-r4s/Bookworm_current_server) ✅ |6.6|R4S 只有1GB内存 截图仅供测试 不建议低内存跑虚拟机 建议内存2GB起步|
-| NanoPi R4SE | [armbian](https://drive.google.com/file/d/1Ip0pcMIKew3nvOpAbhvw294KxGKULGnd/view?usp=sharing) ✅ |6.1|
-|RaspberryPi-4B|[RaspberryPiOS](https://www.raspberrypi.com/software/) ✅ |6.1|
-|电犀牛R66S|[armbian](https://github.com/ophub/amlogic-s9xxx-armbian/releases) ✅ |6.1|
-| OrangePiZero3 | [debian](https://drive.google.com/drive/folders/1915jA2FgjUIUrdcEe4I1wxqSZgyDLiBN?usp=sharing) ✅ |6.1|全志H618不支持KVM虚拟化,只能依赖QEMU仿真。因此不推荐此机型部署,当然如果你只是玩玩测试是可以的|
+| Radxa e20c | [armbian](https://drive.google.com/file/d/1_UFO9dzp3oDMfn2EQCWFGecKiFlY4w2e/view?usp=sharing) ✅ |5.10.x or 6.1|❤️测试通过且推荐。e20c开发板建议2GB内存以上 建议刷armbian系统并升级内核到6.1|
+| NanoPi R4S | [armbian](https://dl.armbian.com/nanopi-r4s/Bookworm_current_server) ✅ |6.6|测试通过但不推荐。R4S 只有1GB内存 截图仅供测试 不建议低内存跑虚拟机 建议内存2GB起步|
+| NanoPi R4SE | [armbian](https://drive.google.com/file/d/1Ip0pcMIKew3nvOpAbhvw294KxGKULGnd/view?usp=sharing) ✅ |6.1| 未测试,跟R4S同款CPU,内存也大,理论可行,待网友验证
+|RaspberryPi-4B|[RaspberryPiOS](https://www.raspberrypi.com/software/) ✅ |6.1|❤️测试通过。推荐4GB内存的树莓派
+|电犀牛R66S|[armbian](https://github.com/ophub/amlogic-s9xxx-armbian/releases) ✅ |6.1|❤️测试通过且推荐。
+| OrangePiZero3 | [debian](https://drive.google.com/drive/folders/1915jA2FgjUIUrdcEe4I1wxqSZgyDLiBN?usp=sharing) ✅ |6.1|测试通过但不推荐。全志H618不支持KVM虚拟化,只能依赖QEMU仿真。因此不推荐此机型部署,当然如果你只是玩玩测试是可以的|
+| Nanopi-R2S | [armbian](https://www.armbian.com/nanopi-r2s/) ✅ |6.6|测试通过但不推荐。R2S 内存只有1GB、推荐2GB以上机型。
 
 ### 推荐内存是2G以上，不过1GB 也能跑通，如图：如果给虚拟机openwrt 3、400M内存
 <img src="https://github.com/user-attachments/assets/32372c38-a147-4c24-aaf8-ae7537c1794e" alt="r4s" width="500">
