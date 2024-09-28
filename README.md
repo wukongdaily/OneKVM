@@ -1,4 +1,11 @@
 # 一键KVM虚拟机
+
+### Armbian/Ubuntu/Debian/RaspberryPiOS等基于Debian的Linux
+
+```bash
+wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.sh && chmod +x kvm.sh && ./kvm.sh
+
+```
 ### 配套图文📁 https://wkdaily.cpolar.cn/archives/e20chelper
 ### 相关视频📺️ https://www.bilibili.com/video/BV12msDegEFg
 ### 相关视频📺️ https://www.youtube.com/watch?v=YjMzyja9xWo
@@ -10,12 +17,7 @@
 - 全志Allwinner ❌ 普遍不支持KVM
 - 晶晨的盒子 这个存量太大 以实际测试为准
 
-### Armbian/Ubuntu/Debian/RaspberryPiOS等基于Debian的Linux
 
-```bash
-wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.sh && chmod +x kvm.sh && ./kvm.sh
-
-```
 ### 常见机型和系统推荐
 
 
@@ -27,7 +29,7 @@ wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.s
 |RaspberryPi-4B|[RaspberryPiOS](https://www.raspberrypi.com/software/) ✅ |6.1|❤️测试通过。推荐4GB内存的树莓派
 |电犀牛R66S|[armbian](https://github.com/ophub/amlogic-s9xxx-armbian/releases) ✅ |6.1|❤️测试通过且推荐。
 | OrangePiZero3 | [debian](https://drive.google.com/drive/folders/1915jA2FgjUIUrdcEe4I1wxqSZgyDLiBN?usp=sharing) ✅ |6.1|测试通过但不推荐。全志H618不支持KVM虚拟化,只能依赖QEMU仿真。因此不推荐此机型部署,当然如果你只是玩玩测试是可以的|
-| Nanopi-R2S | [armbian](https://www.armbian.com/nanopi-r2s/) ✅ |6.6|测试通过但不推荐。R2S 内存只有1GB、推荐2GB以上机型。
+| Nanopi-R2S | [armbian](https://armbian.systemonachip.net/archive/nanopi-r2s/archive/Armbian_23.11.1_Nanopi-r2s_bookworm_current_6.1.63.img.xz) ✅ |6.1|测试通过但不推荐。R2S 内存只有1GB、推荐2GB以上机型。
 
 ### 推荐内存是2G以上，不过1GB 也能跑通，如图：如果给虚拟机openwrt 3、400M内存
 <img src="https://github.com/user-attachments/assets/32372c38-a147-4c24-aaf8-ae7537c1794e" alt="r4s" width="500">
