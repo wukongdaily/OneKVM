@@ -39,6 +39,7 @@ wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.s
 | Nanopi-R2S<br>(RK3328) | [armbian](https://armbian.systemonachip.net/archive/nanopi-r2s/archive/Armbian_23.11.1_Nanopi-r2s_bookworm_current_6.1.63.img.xz) ✅ |6.1|测试通过但不推荐。<br>R2S 内存只有1GB、推荐2GB以上机型。
 |Nanopi-Neo3<br>(RK3328)|[armbian](https://k-space.ee.armbian.com/archive/nanopineo3/archive/Armbian_23.11.1_Nanopineo3_bookworm_current_6.1.63.img.xz) ✅ |6.1～6.6|❤️测试通过。刚好过2GB内存准入门槛。但是单网口比较适合做旁路由
 |Radxa-zero3E<br>(RK3566)|[armbian](https://www.armbian.com/radxa-zero-3/) ✅ |6.1|❤️测试通过。拥有4GB内存 但是单网口比较适合做旁路由
+|Dell Wyse3030<br>(x86-64 赛扬N2807)|[armbian](https://www.armbian.com/uefi-x86/) ✅ |6.6|❤️测试通过。4GB内存 但是单网口比较适合做旁路由
 
 ### 推荐内存是2G以上，不过1GB 也能跑通，如图：如果给虚拟机openwrt 3、400M内存
 <img src="https://github.com/user-attachments/assets/32372c38-a147-4c24-aaf8-ae7537c1794e" alt="r4s" width="500">
