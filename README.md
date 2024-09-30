@@ -51,4 +51,6 @@ wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.s
 ![x86](https://github.com/user-attachments/assets/6af68be5-7b9a-4eb8-8e73-26aad9b1c393)
 
 ![iStoreOS on QEMU:KVM 2024-09-28 21-51-42](https://github.com/user-attachments/assets/281b3d77-fea7-47c9-8e00-9b6a4e33a435)
+### x86-64 机型 系统是基与debian12的飞牛fnOS v0.8.20 CPU:Intel 赛扬N4100 4*2.5G网口
+<img src="https://github.com/user-attachments/assets/e2899894-04f3-4bfd-9bb0-344fbc8765f9" alt="r4s" width="500">
 
