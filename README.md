@@ -7,8 +7,9 @@ wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.s
 
 ```
 ### 配套图文📁 https://wkdaily.cpolar.cn/archives/e20chelper
-### 相关视频📺️ https://www.bilibili.com/video/BV12msDegEFg
-### 相关视频📺️ https://www.youtube.com/watch?v=YjMzyja9xWo
+### ARM平台相关视频📺️ https://www.bilibili.com/video/BV12msDegEFg
+### ARM平台相关视频📺️ https://www.youtube.com/watch?v=YjMzyja9xWo
+### fnOS相关视频📺️ https://www.bilibili.com/video/制作中
 
 ### 该项目兼容x86-64 和 arm64 双平台、推荐使用linux内核为5.x以上、推荐内存2G以上
 ### 推荐使用支持KVM虚拟化的cpu，因为如果不支持，就只能单靠QEMU模拟，性能会大打折扣。
