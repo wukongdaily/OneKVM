@@ -60,3 +60,9 @@ wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.s
 ### x86-64 机型 系统是基与debian12的飞牛fnOS v0.8.20 CPU:Intel 赛扬N4100 4*2.5G网口
 <img src="https://github.com/user-attachments/assets/e2899894-04f3-4bfd-9bb0-344fbc8765f9" alt="r4s" width="500">
 
+## 注意事项
+#### 对于非管理的网口，如果你为了虚拟机设置了网桥，那么你最好将其手动设置ip，这ip随便啥都行，主要目的是为了，让它一直处于激活状态。
+![网络 - wukong@j1800 2024-10-03 15-37-33](https://github.com/user-attachments/assets/aeb53107-63fa-482c-a07a-49678a27f11b)
+
+![网络 - wukong@j1800 2024-10-03 15-42-56](https://github.com/user-attachments/assets/c22babcc-96a8-4f6a-b7e3-d41f629151f4)
+
