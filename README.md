@@ -66,3 +66,4 @@ wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.s
 
 ![网络 - wukong@j1800 2024-10-03 15-42-56](https://github.com/user-attachments/assets/c22babcc-96a8-4f6a-b7e3-d41f629151f4)
 
+#### 如果不是nas系统，而是debian系统，这时可能不分管理口，每个网口都一样。此时应该也将“wan” 这个网桥设置一个同网段的静态ip。这样做也是为了让这个网桥处于激活状态。防止虚拟软路由wan口无法联网。
