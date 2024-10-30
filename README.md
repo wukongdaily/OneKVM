@@ -37,6 +37,7 @@ wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.s
 | 型号 |推荐系统固件<br>和下载地址|内核版本|备注建议|
 |-----|-----------|-----|-----|
 | Radxa e20c<br>(RK3528A) | [armbian](https://drive.google.com/file/d/1_UFO9dzp3oDMfn2EQCWFGecKiFlY4w2e/view?usp=sharing) ✅ |5.10.x or 6.1|❤️测试通过且推荐。<br>e20c开发板建议2GB内存以上 建议刷armbian系统并升级内核到6.1|
+|Station P2<br>(RK3568)|[armbian](https://armbian.atomonetworks.com/archive/station-p2/archive/) ✅ |6.1|❤️测试通过且推荐。拥有4GB内存 双千兆网口 NVME和SATA双硬盘 32G emmc 和TF卡启动-Wifi6 可谓是ARM旗舰机型
 | NanoPi R4S<br>(RK3399) | [armbian](https://dl.armbian.com/nanopi-r4s/Bookworm_current_server) ✅ |6.6|测试通过但不推荐。<br>R4S 只有1GB内存 截图仅供测试 不建议低内存跑虚拟机 建议内存2GB起步|
 | NanoPi R4SE<br>(RK3399) | [armbian](https://drive.google.com/file/d/1Ip0pcMIKew3nvOpAbhvw294KxGKULGnd/view?usp=sharing) ✅ |6.1| 未测试,跟R4S同款CPU,内存也大,理论可行,待网友验证
 |RaspberryPi-4B|[RaspberryPiOS](https://www.raspberrypi.com/software/) ✅ |6.1|❤️测试通过。推荐4GB内存的树莓派
@@ -45,7 +46,6 @@ wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.s
 | Nanopi-R2S<br>(RK3328) | [armbian](https://armbian.systemonachip.net/archive/nanopi-r2s/archive/Armbian_23.11.1_Nanopi-r2s_bookworm_current_6.1.63.img.xz) ✅ |6.1|测试通过但不推荐。<br>R2S 内存只有1GB、推荐2GB以上机型。
 |Nanopi-Neo3<br>(RK3328)|[armbian](https://k-space.ee.armbian.com/archive/nanopineo3/archive/Armbian_23.11.1_Nanopineo3_bookworm_current_6.1.63.img.xz) ✅ |6.1～6.6|❤️测试通过。刚好过2GB内存准入门槛。但是单网口比较适合做旁路由
 |Radxa-zero3E<br>(RK3566)|[armbian](https://www.armbian.com/radxa-zero-3/) ✅ |6.1|❤️测试通过。拥有4GB内存 但是单网口比较适合做旁路由
-|Station P2<br>(RK3568)|[armbian](https://armbian.atomonetworks.com/archive/station-p2/archive/) ✅ |6.1|❤️测试通过。拥有4GB内存 双千兆网口 NVME和SATA双硬盘 32G emmc 和TF卡启动-Wifi6 可谓是ARM旗舰机型
 |Dell Wyse3030<br>(x86-64 赛扬N2807)|[armbian](https://www.armbian.com/uefi-x86/) ✅ |6.6|❤️测试通过。4GB内存 但是单网口比较适合做旁路由
 
 ### 推荐内存是2G以上，不过1GB 也能跑通，如图：如果给虚拟机openwrt 3、400M内存
