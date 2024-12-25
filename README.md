@@ -3,10 +3,10 @@
 ### Armbian/Ubuntu/Debian/RaspberryPiOS/飞牛fnOS 等基于Debian的Linux
 
 ```bash
-wget -qO kvm.sh https://cafe.cpolar.cn/wkdaily/e20c/raw/branch/master/e20c/kvm.sh && chmod +x kvm.sh && ./kvm.sh
+wget -qO kvm.sh https://cafe.cpolar.top/wkdaily/e20c/raw/branch/master/e20c/kvm.sh && chmod +x kvm.sh && ./kvm.sh
 
 ```
-### 配套图文📁 https://wkdaily.cpolar.cn/archives/e20chelper
+### 配套图文📁 https://wkdaily.cpolar.top/archives/e20chelper
 ### ARM平台相关视频📺️ https://www.bilibili.com/video/BV12msDegEFg
 ### ARM平台相关视频📺️ https://www.youtube.com/watch?v=YjMzyja9xWo
 ### fnOS相关视频📺️ https://www.bilibili.com/video/BV1Zu4VetEXL
