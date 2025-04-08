@@ -15,4 +15,4 @@ expect "Do you want to proceed? (Y/N):" { send "Y\r" }
 expect eof
 EOF
 
-echo "GPT分区表已成功写入 $DISK"
+echo "GPT分区表已成功修复 您可以使用U盘/硬盘剩余空间啦 $DISK"
